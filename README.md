@@ -45,7 +45,7 @@
 - Use COPY command to copy data from CSV file to your table, e.g.  
   COPY zip_codes FROM '/path/to/csv/ZIP_CODES.txt' WITH (FORMAT csv);
 
-## Starting, stopping PostgreSQL server on Windows 7
+## Starting and stopping PostgreSQL server on Windows 7
 - After installing postgresql server, by default, it is set to automatic start at Windows startup and runs all the time. Check for postgresql entry in the Task Manager > Services tab  
 - To make any changes in the settings, go to Start > search for Services > right click and choose Run as admin (if not in admin account) > enter admin password > look for postgresql service  
 - Right click and choose to stop, start, restart etc. Change Startup Type from Automatic to Manual to change if the server starts or not at Windows startup
